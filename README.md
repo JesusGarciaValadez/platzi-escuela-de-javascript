@@ -1,4 +1,4 @@
-#README
+# [Platzi - Javascript School](https://platzi.com/clases/escuela-de-javascript/)
 
 This repository is made for cover each session of the "Escuela de Javascript" from Platzi.
 
