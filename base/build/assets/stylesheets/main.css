@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import "../../../node_modules/normalize.css/normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   color: #FFF;
@@ -169,7 +165,7 @@ body.login {
   justify-content: space-around;
   min-height: 700px;
   padding: 60px 50px 40px;
-  width: 400px;
+  width: 300px;
 }
 
 .login__container--h2 {
@@ -297,10 +293,10 @@ body.signup {
 
 .register__container {
   background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid #FFF;
+  border: 2px solid white;
   border-radius: 40px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  color: #FFF;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -309,13 +305,24 @@ body.signup {
   width: 300px;
 }
 
-.register__container h2 {
-  text-align: center;
-}
-
 .register__container--form {
   display: flex;
   flex-direction: column;
+}
+.register__container--form .input {
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-radius: 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+}
+.register__container--form ::placeholder {
+  color: #FFF;
 }
 
 .register__container a {
@@ -324,7 +331,6 @@ body.signup {
   text-align: center;
   text-decoration: none;
 }
-
 .register__container a:hover {
   text-decoration: underline;
 }
