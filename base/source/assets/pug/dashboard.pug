@@ -1,0 +1,270 @@
+extends layouts/layout
+
+block title
+    title PlatziVideo
+
+block login
+    include includes/login.pug
+
+block vars
+    - var bodyClass = 'dashboard'
+
+block content
+    section.main
+        h2.main__title ¿Qué quieres ver hoy?
+        input(type="text" class="input" placeholder="Buscar...")
+
+    h3.categories__title Mi lista
+
+    section.carousel
+        .carousel__container
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1427741/pexels-photo-1427741.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/233129/pexels-photo-233129.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/413879/pexels-photo-413879.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+    h3.categories__title Tendencias
+
+    section.carousel
+        .carousel__container
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1427741/pexels-photo-1427741.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/233129/pexels-photo-233129.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/413879/pexels-photo-413879.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+    h3.categories__title Originales de PlatziVideo
+
+    section.carousel
+        .carousel__container
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1427741/pexels-photo-1427741.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/233129/pexels-photo-233129.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos
+
+            .carousel-item
+                img.carousel-item__img(src="https://images.pexels.com/photos/413879/pexels-photo-413879.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="")
+                .carousel-item__details
+                    div
+                        img.carousel-item__details--img(src="assets/img/play-icon.png" alt="Play Icon")
+                        img.carousel-item__details--img(src="assets/img/plus-icon.png" alt="Plus Icon")
+                    p.carousel-item__details--title Título descriptivo
+                    p.carousel-item__details--subtitle 2019 16+ 114 minutos

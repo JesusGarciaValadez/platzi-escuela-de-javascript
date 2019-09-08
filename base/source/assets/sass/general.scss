@@ -1,0 +1,40 @@
+* {
+  box-sizing: $initialize-box-sizing;
+}
+
+body {
+  margin: 0;
+  color: $white;
+  font-family: $initialize-font-family;
+}
+
+.input {
+  background-color: rgba(255,255,255,0.1);
+  border: 2px solid $white;
+  border-radius: 25px;
+  color: $white;
+  font-family: $initialize-font-family;
+  font-size: $initialize-font-size;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+::placeholder {
+  color: $white;
+}

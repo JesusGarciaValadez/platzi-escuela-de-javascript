@@ -1,0 +1,13 @@
+@import "../../../node_modules/normalize.css/normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+@import "variables";
+@import "general";
+@import "animations";
+
+@import "components/header";
+@import "components/footer";
+
+@import "sections/login";
+@import "sections/signup";
+@import "sections/dashboard";

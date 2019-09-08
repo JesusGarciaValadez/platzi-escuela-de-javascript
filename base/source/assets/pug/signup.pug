@@ -1,0 +1,18 @@
+extends layouts/layout
+
+block title
+    title PlatziVideo
+
+block vars
+    - var bodyClass = 'signup'
+
+block content
+    section.register
+        section.register__container
+            h2 Regístrate
+            form.register__container--form
+                input.input(type="text" placeholder="Nombre")
+                input.input(type="text" placeholder="Correo")
+                input.input(type="password" placeholder="Contraseña")
+                button.button Registrarme
+            a(href="") Iniciar sesión
