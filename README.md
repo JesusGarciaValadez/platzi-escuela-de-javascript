@@ -4,8 +4,8 @@ This repository is made for cover each session of the "Escuela de Javascript" fr
 
 You can find every challenge as a different branch covering the follows: 
 
-1. [Challenge 1](https://github.com/JesusGarciaValadez/platzi-escuela-de-javascript/tree/sesion-1)
-2. [Challenge 2](https://github.com/JesusGarciaValadez/platzi-escuela-de-javascript/tree/sesion-2)
+1. [Challenge 1](https://github.com/JesusGarciaValadez/platzi-escuela-de-javascript/tree/feature/session-1)
+2. [Challenge 2](https://github.com/JesusGarciaValadez/platzi-escuela-de-javascript/tree/feature/session-2)
 3. Challenge 3
 4. Challenge 4
 5. Challenge 5
