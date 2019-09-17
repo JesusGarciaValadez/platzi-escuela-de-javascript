@@ -1,0 +1,118 @@
+@import "../../../node_modules/normalize.css/normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #AB88FF;
+  color: #FFF;
+  font-family: "Muli", sans-serif;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #FFF;
+  border-radius: 25px;
+  color: #FFF;
+  font-family: "Muli", sans-serif;
+  font-size: 1em;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+  width: 70%;
+}
+
+::placeholder {
+  color: #FFF;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__img {
+  width: 200px;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.footer a {
+  color: #FFF;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+.not_found {
+  background: linear-gradient(#70B087, #6B59DB);
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  justify-content: center;
+  width: 100%;
+}
+
+.main__h1 {
+  font-size: 6.25em;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main__h2 {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

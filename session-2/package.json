@@ -1,0 +1,32 @@
+{
+    "name": "session-2",
+    "version": "1.0.0",
+    "description": "Files for session 2 (404 not found module).",
+    "main": "build/assets/js/index.js",
+    "author": "Jesús Antonio García Valadez",
+    "license": "MIT",
+    "dependencies": {
+        "normalize.css": "^8.0.1",
+        "pug": "^2.0.4",
+        "storybook": "^1.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@storybook/html": "^5.1.11",
+        "babel-loader": "^8.0.6",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-react-hooks": "^1.7.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+    },
+    "bundleDependencies": [
+        "storybook"
+    ]
+}
