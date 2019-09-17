@@ -1,0 +1,28 @@
+* {
+  box-sizing: $initialize-box-sizing;
+}
+
+body {
+  margin: 0;
+  background-color: #AB88FF;
+  color: $white;
+  font-family: $initialize-font-family;
+}
+
+.input {
+  background-color: rgba(255,255,255,0.1);
+  border: 2px solid $white;
+  border-radius: 25px;
+  color: $white;
+  font-family: $initialize-font-family;
+  font-size: $initialize-font-size;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+  width: 70%;
+}
+
+::placeholder {
+  color: $white;
+}
